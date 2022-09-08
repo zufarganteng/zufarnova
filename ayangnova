@@ -1,0 +1,24 @@
+<!doctype html>
+   <html>
+  <head>
+    <title>Sayang</title>
+  </head>   
+    
+  <body>         
+      <form>
+          <center><button type="button">Klik Dong</button></center>
+      </form>
+
+      <script>
+     let btn = document.getElementsByTagName('button')[0];
+          
+      btn.addEventListener('click', function(){
+      alert('Hai manis :)');
+      alert('Mau bilang sesuatu buat kamu :)');
+      alert('Jaga kesehatan ya :)');
+      alert('Jangan lupa makan :)');
+      alert('I love you Ttd Zufar :)');
+      });
+      </script>
+  </body>
+</html>
